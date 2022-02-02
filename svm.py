@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+kjnjdbolabclobefcbpabfcbaz
 class SVM:
     # configuration de base et initialisation des poids et biais 
     def __init__(self, learning_rate=1e-3, lambda_param=1e-2, nbr_iters=1000):
