@@ -33,6 +33,8 @@ class SVM:
             return dw, db
           # si le point de données est du mauvais coté 
         dw = self.lambda_param * self.w - np.dot(self.cls_map[idx], x)
+        
+        cc
         db = - self.cls_map[idx]
         return dw, db
     
