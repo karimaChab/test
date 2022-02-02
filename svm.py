@@ -65,3 +65,5 @@ class SVM:
         prediction = np.sign(estimate)
         # mapper la classe de {-1 , 1} aux valeurs d'origine {0,1 } avant de renvoyer l'étiqutte 
         return np.where(prediction == -1, 0, 1)
+    
+    vvvvvvvv
